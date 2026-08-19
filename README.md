@@ -1,5 +1,5 @@
-# accounts-microservice
+# devops-capstone-project
 
-![Build Status](https://github.com/eyadabbaghi/accounts-microservice/actions/workflows/ci-build.yaml/badge.svg)
+[![CI Build](https://github.com/eyadabbaghi/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)](https://github.com/eyadabbaghi/devops-capstone-project/actions/workflows/ci-build.yaml)
 
-This repository contains the accounts microservice project for CI/CD automation.
+Microservices Account REST API Service built with Flask.
