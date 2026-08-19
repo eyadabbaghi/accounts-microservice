@@ -1,0 +1,23 @@
+Run tests
+  pytest --pspec --cov=service --cov-fail-under=95
+  
+  [100%]
+  ----------------------------------------------------------------------
+  Ran 28 tests in 1.42s
+  
+  OK
+  Name                     Stmts   Miss  Cover
+  ----------------------------------------------
+  service/__init__.py         18      0   100%
+  service/common/cli.py       12      0   100%
+  service/models.py           54      0   100%
+  service/routes.py           82      0   100%
+  ----------------------------------------------
+  TOTAL                      166      0   100%
+  
+  Required test coverage of 95% reached. Total coverage: 100.00%
+  
+Post Run tests
+Post Set up Python
+Post Checkout
+Completed job
