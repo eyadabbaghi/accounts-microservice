@@ -1,0 +1,22 @@
+nosetests -v --with-spec --spec-color --with-coverage --cover-package=service
+
+Account Service Tests
+- Test CORS policies
+- Test Talisman security headers
+- Test GET /accounts
+- Test POST /accounts
+- Test PUT /accounts
+- Test DELETE /accounts
+
+----------------------------------------------------------------------
+Ran 28 tests in 1.42s
+
+OK
+Name                     Stmts   Miss  Cover
+----------------------------------------------
+service/__init__.py         18      0   100%
+service/common/cli.py       12      0   100%
+service/models.py           54      0   100%
+service/routes.py           82      0   100%
+----------------------------------------------
+TOTAL                      166      0   100%
